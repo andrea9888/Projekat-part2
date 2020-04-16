@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="add-product">
+      <form>
+        <div>
+          <label>Product name:</label>
+          <input type="text" class="product-name" placeholder="Casio Watch">
+        </div>
+        
+        <div>
+          <label>Product description:</label>
+          <textarea class="product-desc" placeholder="Sample description..."></textarea>
+        </div>
+        
+        <div>
+          <label>Product image:</label>
+          <input type="text"class="product-img" placeholder="http://...jpg" >
+        </div>
+        
+        <div>
+          <label>Product price:</label>
+          <input type="number" min="0" class="product-price" placeholder="33" >
+        </div>
+        
+        <button type="button" class="add">Add</button>
+      </form>
+    </div>
+    
+    <div class="list-products"> </div>
+    
+    <div class="shopping-cart">
+      <div class="shopping-cart-products"></div>
+      <div class="shopping-cart-summary"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
